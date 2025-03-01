@@ -31,7 +31,7 @@ describe("procent", function() {
 
 describe("root", function() {
     it(`корень 9 будет 3`, function() {
-        assert.equal(root(9), 3;
+        assert.equal(root(9), 3);
     });
     it(`корень 9 будет 3`, function() {
         assert.equal(root(9), 4);
@@ -64,4 +64,3 @@ describe("devide", function() {
         assert.equal(devide(12, 4), 2);
     });
 });
-
