@@ -21,20 +21,20 @@ describe("degree", function() {
 });
 
 describe("procent", function() {
-    it(`процент ${b} от ${a} будет 1.3199999999999998`, function() {
-        assert.equal(procent(a, b), 1.3199999999999998);
+    it(`процент 12 от 100 будет 12`, function() {
+        assert.equal(procent(100, 12), 12);
     });
-    it(`процент ${b} от ${a} будет 1.3199999999999998`, function() {
-        assert.equal(procent(a, b), 1.33);
+    it(`процент 12 от 100 будет 12`, function() {
+        assert.equal(procent(100, 12), 13);
     });
 });
 
 describe("root", function() {
-    it(`корень ${a} будет 3.4641016151377544`, function() {
-        assert.equal(root(a), 3.4641016151377544);
+    it(`корень 9 будет 3`, function() {
+        assert.equal(root(9), 3;
     });
-    it(`корень ${a} будет 3.464101615137655`, function() {
-        assert.equal(root(a), 3.464101615137655);
+    it(`корень 9 будет 3`, function() {
+        assert.equal(root(9), 4);
     });
 });
 
@@ -57,11 +57,11 @@ describe("multiply", function() {
 });
 
 describe("devide", function() {
-    it(`${a} делить на ${b} будет 1.090909090909091`, function() {
-        assert.equal(degree(a, b), 1.090909090909091);
+    it(`12 делить на 4 будет 3`, function() {
+        assert.equal(degree(12, 4), 3);
     });
-    it(`${a} делить на ${b} будет 1.090909090908091`, function() {
-        assert.equal(degree(a, b), 1.090909090908091);
+    it(`12 делить на 4 будет 3`, function() {
+        assert.equal(degree(12, 4), 2);
     });
 });
 
