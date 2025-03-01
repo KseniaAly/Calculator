@@ -22,10 +22,10 @@ describe("degree", function() {
 
 describe("procent", function() {
     it(`процент ${b} от ${a} будет 1,32`, function() {
-        assert.equal(procent(a, b), 1,32);
+        assert.equal(procent(a, b), 1.32);
     });
     it(`процент ${b} от ${a} будет 1,32`, function() {
-        assert.equal(procent(a, b), 1,33);
+        assert.equal(procent(a, b), 1.33);
     });
 });
 
