@@ -31,10 +31,10 @@ describe("procent", function() {
 
 describe("root", function() {
     it(`корень ${a} будет 3,464101615137755`, function() {
-        assert.equal(root(a), 3,464101615137755);
+        assert.equal(root(a), 3.4641016151377544);
     });
     it(`корень ${a} будет 3,464101615137755`, function() {
-        assert.equal(root(a), 3,464101615137655);
+        assert.equal(root(a), 3.464101615137655);
     });
 });
 
