@@ -6,7 +6,7 @@ describe("increase", function() {
         assert.equal(increase(a, b), 23);
     });
     it(`${a} плюс ${b} будет ${a+b}`, function() {
-        assert.equal(degree(a, b), 22);
+        assert.equal(increase(a, b), 22);
     });
 
 });
