@@ -58,10 +58,10 @@ describe("multiply", function() {
 
 describe("devide", function() {
     it(`12 делить на 4 будет 3`, function() {
-        assert.equal(degree(12, 4), 3);
+        assert.equal(devide(12, 4), 3);
     });
     it(`12 делить на 4 будет 3`, function() {
-        assert.equal(degree(12, 4), 2);
+        assert.equal(devide(12, 4), 2);
     });
 });
 
