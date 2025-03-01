@@ -2,7 +2,7 @@ const a = 12;
 const b = 11;
 
 describe("increase", function() {
-    it(`${a} плюс ${b} будет ${a+b}`, function() {
+    it(`12 плюс 11 будет 23`, function() {
         assert.equal(increase(a, b), 23);
     });
     it(`${a} плюс ${b} будет ${a+b}`, function() {
