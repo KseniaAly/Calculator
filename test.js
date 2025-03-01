@@ -57,7 +57,7 @@ describe("multiply", function() {
 });
 
 describe("devide", function() {
-    it(`${a} делить на ${b} будет ${a/b}`, function() {
+    it(`${a} делить на ${b} будет 1.090909090909091`, function() {
         assert.equal(degree(a, b), 1.090909090909091);
     });
     it(`${a} делить на ${b} будет ${a/b}`, function() {
